@@ -103,6 +103,7 @@
     text-align: center;
     padding: 80px 40px;
     align-items: center;
+    background-color: #F7F6F2;
 }
 
 .notes-section h2 {
@@ -152,6 +153,7 @@
 }
 
 .circle-section{
+    padding: 120px 0 0 0;
     width: 1300px;
     max-width: 1600px;
     margin: 0 auto;
@@ -190,4 +192,33 @@
 
 .solution li{
     line-height: 20px;
+}
+
+.last-one{
+    width: 1300px;
+    max-width: 1600px;
+    padding-top: 100px;
+    margin: 0 auto;
+    text-align: center;
+    background-color: #F7F6F2;
+}
+
+.one h1{
+    font-size: 40px;
+    font-weight: bold;
+    color: #001931;
+    margin-bottom: 16px;
+}
+
+.one p{
+    font-size: 16px;
+    line-height: 24px;
+    color: #627382;
+    margin-bottom: 24px;
+}
+
+.prime{
+    font-size: 16px;
+    color: #627382;
+    margin-top: 16px;
 }
