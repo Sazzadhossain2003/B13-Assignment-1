@@ -4,13 +4,11 @@
     box-sizing: border-box;
 }
 /* header part */
-#logo{
-    
-}
+
 
 #logo .logo-navbar{
     max-width: 1600px;
-    width: 1360px;
+    width: 1300px;
     margin: 0 auto;
     align-items: center;
     display: flex;
@@ -42,4 +40,56 @@
     border-radius: 5px;
     color: white;
     background-color: #21a154;
+}
+
+#banner{
+    max-width: 1600px;
+    width: 1300px;
+    margin: 0 auto;
+    align-items: center;
+    background-color: #ffffff;
+    flex-direction: column;
+    line-height: 50px;
+    text-align: center;
+    padding-top: 100px;
+    background-image: url(../images/hero-bg.png);
+}
+
+.btn-1{
+    padding: 12px;
+    font-size: 16px;
+    font-weight: 500;
+    color:#006d2d ;
+    background-color:white;
+    border-radius: 20px;
+
+}
+
+.banner-container .head{
+    font-size: 70px;
+    font-weight: bold;
+    color: #ece0e0;
+    padding: 24px;
+}
+
+.banner-container .Head{
+    font-size: 70px;
+    font-weight: bold;
+    color: #30B868;
+    padding-bottom: 20px;
+}
+
+.banner-container p{
+    font-size: 18px;
+    line-height: 24px;
+    color: #f8f2f2;
+    padding-bottom: 32px;
+}
+
+.btn-2{
+    font-size: 16px;
+    font-weight: 400;
+    padding: 10px;
+    color: rgb(83, 82, 82);
+    background-color: #ece0e0;
 }
