@@ -40,6 +40,12 @@
     border-radius: 5px;
     color: white;
     background-color: #21a154;
+    cursor: pointer;
+
+}
+
+.btn:hover{
+    background-color: rebeccapurple;
 }
 
 #banner{
@@ -220,7 +226,7 @@
 .prime{
     font-size: 16px;
     color: #627382;
-    margin-top: 16px;
+    padding-bottom: 16px;
 }
 
 .last-part{
@@ -250,3 +256,5 @@
     color: #FAFAFA;
     padding: 194px 20px 0;
 }
+
+/* button */
