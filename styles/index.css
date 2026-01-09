@@ -15,6 +15,7 @@
     justify-content: space-between;
     padding: 16px 120px;
     background-color: #faf8f8; 
+    /* margin-bottom: 120px; */
 }
 
 .link{
@@ -58,6 +59,7 @@
     line-height: 50px;
     text-align: center;
     padding-top: 100px;
+    padding-bottom: 100px;
     background-image: url(../images/hero-bg.png);
 }
 
@@ -92,16 +94,23 @@
     padding-bottom: 32px;
 }
 
+.btn-s{
+    font-size: 12px;
+    padding: 13.5px;
+    border-radius: 4px;
+    margin-right: 12px;
+}
+
 .btn-2{
     font-size: 16px;
     font-weight: 400;
     padding: 10px;
     color: rgb(83, 82, 82);
-    background-color: #ece0e0;
+    background-color: rgba(255, 255, 255, 0.753);
 }
 
-
-
+/* main  */
+/* notes section */
 .notes-section {
     width: 1300px;
     max-width: 1600px;
@@ -158,6 +167,7 @@
     color: #627382;
 }
 
+/* circle section */
 .circle-section{
     padding: 120px 0 0 0;
     width: 1300px;
@@ -200,6 +210,7 @@
     line-height: 20px;
 }
 
+/* last-one */
 .last-one{
     width: 1300px;
     max-width: 1600px;
@@ -229,6 +240,7 @@
     padding-bottom: 16px;
 }
 
+/* last part */
 .last-part{
     width: 1300px;
     max-width: 1600px;
@@ -249,7 +261,8 @@
     font-weight: 500;
     color: #FFFFFF;
     margin-bottom: 16px;
-}
+} 
+
 
 .last{
     font-size: 16px;
@@ -257,4 +270,4 @@
     padding: 194px 20px 0;
 }
 
-/* button */
+
